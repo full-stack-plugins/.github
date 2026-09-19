@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="https://github.com/full-stack-plugins"><img alt="Repos" src="https://img.shields.io/badge/Repos-6-blue?style=flat-square"></a>
-  <a href="https://github.com/full-stack-plugins/full-stack-plugins"><img alt="Plugins" src="https://img.shields.io/badge/Plugins-4-green?style=flat-square"></a>
-  <a href="https://github.com/full-stack-plugins/full-stack-plugins"><img alt="Hosts" src="https://img.shields.io/badge/Hosts-Codex%20·%20ZCode%20·%20Kimi-blue?style=flat-square"></a>
+  <a href="https://github.com/partme-ai/full-stack-plugins"><img alt="Plugins" src="https://img.shields.io/badge/Plugins-4-green?style=flat-square"></a>
+  <a href="https://github.com/partme-ai/full-stack-plugins"><img alt="Hosts" src="https://img.shields.io/badge/Hosts-Codex%20·%20ZCode%20·%20Kimi-blue?style=flat-square"></a>
   <a href="https://github.com/full-stack-plugins/.github/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-orange?style=flat-square"></a>
 </p>
 
@@ -47,26 +47,26 @@
 
 | 仓库 | 说明 |
 |------|------|
-| [full-stack-plugins](https://github.com/full-stack-plugins/full-stack-plugins) | 插件市场仓：catalog 单一事实源 + 三平台清单 + 发版工具 |
+| [full-stack-plugins](https://github.com/partme-ai/full-stack-plugins) | 插件市场仓：catalog 单一事实源 + 三平台清单 + 发版工具 |
 
 ---
 
 ## 🚀 快速开始
 
-插件市场清单由 [full-stack-plugins/full-stack-plugins](https://github.com/full-stack-plugins/full-stack-plugins) 统一发布：
+插件市场清单由 [partme-ai/full-stack-plugins](https://github.com/partme-ai/full-stack-plugins) 统一发布：
 
 ```bash
 # Codex
-codex plugin marketplace add full-stack-plugins/full-stack-plugins
+codex plugin marketplace add partme-ai/full-stack-plugins
 codex plugin add codeguard@full-stack-plugins   # 其余插件同理
 ```
 
 ```text
 # Kimi Code CLI
-/plugins marketplace https://raw.githubusercontent.com/full-stack-plugins/full-stack-plugins/main/kimi-marketplace.json
+/plugins marketplace https://raw.githubusercontent.com/partme-ai/full-stack-plugins/main/kimi-marketplace.json
 ```
 
-> ZCode：设置 → 插件 → 添加插件市场，输入 `full-stack-plugins/full-stack-plugins`。
+> ZCode：设置 → 插件 → 添加插件市场，输入 `partme-ai/full-stack-plugins`。
 
 ---
 
