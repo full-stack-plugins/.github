@@ -10,11 +10,27 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/full-stack-plugins"><img alt="Repos" src="https://img.shields.io/badge/Repos-6-blue?style=flat-square"></a>
-  <a href="https://github.com/partme-ai/full-stack-plugins"><img alt="Plugins" src="https://img.shields.io/badge/Plugins-4-green?style=flat-square"></a>
+  <a href="https://github.com/partme-ai/full-stack-plugins"><img alt="Plugins" src="https://img.shields.io/badge/Plugins-9-green?style=flat-square"></a>
   <a href="https://github.com/partme-ai/full-stack-plugins"><img alt="Hosts" src="https://img.shields.io/badge/Hosts-Codex%20·%20ZCode%20·%20Kimi-blue?style=flat-square"></a>
   <a href="https://github.com/full-stack-plugins/.github/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache_2.0-orange?style=flat-square"></a>
 </p>
+
+---
+
+<!-- ecosystem-navigation:start -->
+
+## 生态导航
+
+按当前任务选择入口：技能提供可复用的知识与操作指引，插件连接工具与工作流。各项目可以独立使用，按需安装即可。
+
+| 方向 | 适用任务 | 目录与安装 | 组织 |
+| --- | --- | --- | --- |
+| Full Stack Skills | 软件开发、架构设计、测试与运维 | [PartMe.AI / full-stack-skills](https://github.com/partme-ai/full-stack-skills) | [full-stack-skills](https://github.com/full-stack-skills) |
+| Full AIGC Skills | 图像、视频、音频等内容创作 | [PartMe.AI / full-aigc-skills](https://github.com/partme-ai/full-aigc-skills) | [full-aigc-skills](https://github.com/full-aigc-skills) |
+| Full Stack Plugins | 研发与运维的工具集成和工作流 | [PartMe.AI / full-stack-plugins](https://github.com/partme-ai/full-stack-plugins) | [full-stack-plugins](https://github.com/full-stack-plugins) |
+| Full AIGC Plugins | 内容制作的工具集成和生成工作流 | [PartMe.AI / full-aigc-plugins](https://github.com/partme-ai/full-aigc-plugins) | [full-aigc-plugins](https://github.com/full-aigc-plugins) |
+
+<!-- ecosystem-navigation:end -->
 
 ---
 
@@ -37,11 +53,16 @@
 ### 插件
 
 | 插件 | 仓库 | 版本 | 说明 |
-|------|------|:----:|------|
-| 🎨 **Google Stitch 设计** | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) | 0.7.9 | 基于 Google Stitch 的设计与前端搭建 |
-| 📊 **ProcessOn 图表** | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) | 0.2.2 | 生成可编辑的 ProcessOn 精美图表（流程图 / 架构图 / 思维导图） |
-| 🔍 **代码规范守卫** | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) | 0.3.4 | 让 AI 写的代码一次通过 lint 门禁（多语言规则集） |
-| 🛡️ **宝塔 Linux 面板** | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) | 1.0.2 | 通过 MCP 运维宝塔 Linux 面板 |
+| --- | --- | --- | --- |
+| 1Panel | [1panel-plugin](https://github.com/full-stack-plugins/1panel-plugin) | 0.1.1 | 通过官方 MCP 检查与管理 1Panel |
+| BaoTa Linux Panel | [bt-linux-panel-plugin](https://github.com/full-stack-plugins/bt-linux-panel-plugin) | 1.0.6 | 通过 MCP 管理宝塔 Linux 面板 |
+| CodeGraph | [codegraph-plugin](https://github.com/full-stack-plugins/codegraph-plugin) | 0.1.6 | 代码关系检索、影响分析与官方 CLI 工作流 |
+| CodeGuard | [codeguard-plugin](https://github.com/full-stack-plugins/codeguard-plugin) | 0.18.3 | 代码规范检查与 Java 改动影响分析 |
+| CodeReview | [codereview-plugin](https://github.com/full-stack-plugins/codereview-plugin) | 0.3.0 | 经用户授权审查待提交代码 |
+| FlowGuard | [flowguard-plugin](https://github.com/full-stack-plugins/flowguard-plugin) | 0.4.2 | 智能体 SDD 治理：原生规格、证据与提交门禁 |
+| Google Stitch Design | [stitch-design-plugin](https://github.com/full-stack-plugins/stitch-design-plugin) | 0.9.0 | 使用 Google Stitch 设计界面与构建前端 |
+| ProcessOn Design | [processon-design-plugin](https://github.com/full-stack-plugins/processon-design-plugin) | 0.2.12 | 生成可编辑的 ProcessOn 流程图、架构图与思维导图 |
+| UI Design | [ui-design-plugin](https://github.com/full-stack-plugins/ui-design-plugin) | 0.1.1 | 前端界面设计与图像素材生成 |
 
 ### 基础设施
 
@@ -55,11 +76,7 @@
 
 插件市场清单由 [partme-ai/full-stack-plugins](https://github.com/partme-ai/full-stack-plugins) 统一发布：
 
-```bash
-# Codex
-codex plugin marketplace add partme-ai/full-stack-plugins
-codex plugin add codeguard@full-stack-plugins   # 其余插件同理
-```
+Codex 用户请按[市场安装说明](https://github.com/partme-ai/full-stack-plugins#安装)在插件页面添加市场，并选择所需插件。
 
 ```text
 # Kimi Code CLI
@@ -95,7 +112,7 @@ codex plugin add codeguard@full-stack-plugins   # 其余插件同理
 
 ## 📄 许可协议
 
-本组织下所有项目均采用 [Apache 2.0](LICENSE) 开源许可协议。
+本组织下所有项目均采用 [Apache 2.0](../LICENSE) 开源许可协议。
 
 ---
 
